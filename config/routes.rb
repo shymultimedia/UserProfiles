@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  
+  root 'user#index'
+
   resources :users
   #get "demo/hello" => "demos#hello"
   # The priority is based upon order of creation: first created -> highest priority.
