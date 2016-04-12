@@ -42,4 +42,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'rails_12factor', group: :production
 
 #ruby ENV['CUSTOM_RUBY_VERSION'] || '2.1.5p273'
-ruby ENV['CUSTOM_RUBY_VERSION'] || '2.1.8'
+#ruby ENV['CUSTOM_RUBY_VERSION'] || '2.1.8'
+ruby ENV['CUSTOM_RUBY_VERSION'] || '2.2.4'
