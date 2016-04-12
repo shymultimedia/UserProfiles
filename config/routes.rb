@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
-  #root 'user#index'
-  root 'welcome#index'
+ root 'user#index'
+#  root 'welcome#index'
 
   resources :users
   #get "demo/hello" => "demos#hello"
